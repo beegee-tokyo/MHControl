@@ -1,0 +1,1578 @@
+Start without 15 second sleep
+initApp - Initialize globals
+initApp - Register signal handler
+UDP server thread ok
+TDP server thread ok
+UDP socket listener initialized
+TDP debug server thread ok
+TCP socket listener initialized
+TCP socket listener initialized
+Successful connection
+Message with token value 0 delivery confirmed
+MQTT connection initialized
+Streaming camera 0
+Streaming command: /usr/local/bin/ipCam.sh
+Streaming command: /usr/local/bin/ipCam.sh
+udpSend {"de":"vc1","pi":0}
+Sending {"de":"vc1","pi":0} with length 19
+IP Cam streaming thread ok
+Received packet from 192.168.0.251:9997
+on 0.0.0.0:9997
+Data: {"de":"vc1","pi":0}
+Start front security process id:314
+End front security process
+Copied SF1 JSON:
+{
+    "de": "vc1",
+    "pi": 0
+}
+udpProcess finished
+
+SIGUSR1 received
+
+MQTT publish triggered
+Publish SEF: {"de":"vc1","pi":0}
+Publish VC1: {"de":"vc1","pi":0}
+Message with token value 0 delivery confirmed
+Initializing OneWire interface ok
+tcpSend s
+Init TCP outgoing socket
+Message with token value 0 delivery confirmed
+Connecting to device on address 192.168.0.50
+Could not connect to device
+tcpSend s
+Init TCP outgoing socket
+Connecting to device on address 192.168.0.52
+Sending s with length 1
+tcpSend s
+Init TCP outgoing socket
+Connecting to device on address 192.168.0.56
+Received packet from 192.168.0.52:9997
+on 0.0.0.0:9997
+Data: {"de":"sf1","al":0,"ao":0,"au":1,"an":23,"af":7,"lo":0}
+Start front security process id:314
+End front security process
+Copied SF1 JSON:
+{
+    "de": "sf1",
+    "al": 0,
+    "ao": 0,
+    "au": 1,
+    "an": 23,
+    "af": 7,
+    "lo": 0
+}
+udpProcess finished
+
+SIGUSR1 received
+
+MQTT publish triggered
+Publish SEF: {"de":"sf1","al":0,"ao":0,"au":1,"an":23,"af":7,"lo":0}
+Message with token value 0 delivery confirmed
+Received packet from 192.168.0.52:9997
+on 0.0.0.0:9997
+Data: {"de":"sf1","al":0,"ao":0,"au":1,"an":23,"af":7,"lo":0}
+Start front security process id:314
+End front security process
+Copied SF1 JSON:
+{
+    "de": "sf1",
+    "al": 0,
+    "ao": 0,
+    "au": 1,
+    "an": 23,
+    "af": 7,
+    "lo": 0
+}
+udpProcess finished
+
+SIGUSR1 received
+
+MQTT publish triggered
+Publish SEF: {"de":"sf1","al":0,"ao":0,"au":1,"an":23,"af":7,"lo":0}
+Message with token value 0 delivery confirmed
+Could not connect to device
+tcpSend s
+Init TCP outgoing socket
+Connecting to device on address 192.168.0.57
+Received packet from 192.168.0.53:9997
+on 0.0.0.0:9997
+Data: {"de":"sb1","al":0,"ao":0,"au":1,"an":23,"af":7,"lo":0,"te":30,"hu":61,"he":33.033264}
+Start back security process id:310
+Original SB1 JSON:
+{
+    "de": "sb1",
+    "al": 0,
+    "ao": 0,
+    "au": 1,
+    "an": 23,
+    "af": 7,
+    "lo": 0,
+    "te": 30,
+    "hu": 61,
+    "he": 33.03
+}
+End back security process
+Copied and cleaned SB1 JSON:
+{
+    "de": "sb1",
+    "al": 0,
+    "ao": 0,
+    "au": 1,
+    "an": 23,
+    "af": 7,
+    "lo": 0
+}
+Created WEO JSON:
+{
+    "de": "weo",
+    "te": 30,
+    "hu": 61,
+    "hi": 33.03
+}
+udpProcess finished
+
+SIGUSR1 received
+
+MQTT publish triggered
+Publish SEB: {"de":"sb1","al":0,"ao":0,"au":1,"an":23,"af":7,"lo":0}
+Publish WEO: {"de":"weo","te":30,"hu":61,"hi":33.03}
+Message with token value 0 delivery confirmed
+Message with token value 0 delivery confirmed
+Received packet from 192.168.0.53:9997
+on 0.0.0.0:9997
+Data: {"de":"sb1","al":0,"ao":0,"au":1,"an":23,"af":7,"lo":0,"te":30,"hu":61,"he":33.033264}
+Start back security process id:310
+Original SB1 JSON:
+{
+    "de": "sb1",
+    "al": 0,
+    "ao": 0,
+    "au": 1,
+    "an": 23,
+    "af": 7,
+    "lo": 0,
+    "te": 30,
+    "hu": 61,
+    "he": 33.03
+}
+End back security process
+Copied and cleaned SB1 JSON:
+{
+    "de": "sb1",
+    "al": 0,
+    "ao": 0,
+    "au": 1,
+    "an": 23,
+    "af": 7,
+    "lo": 0
+}
+Created WEO JSON:
+{
+    "de": "weo",
+    "te": 30,
+    "hu": 61,
+    "hi": 33.03
+}
+udpProcess finished
+
+SIGUSR1 received
+
+MQTT publish triggered
+Publish SEB: {"de":"sb1","al":0,"ao":0,"au":1,"an":23,"af":7,"lo":0}
+Publish WEO: {"de":"weo","te":30,"hu":61,"hi":33.03}
+Message with token value 0 delivery confirmed
+Message with token value 0 delivery confirmed
+Received packet from 192.168.0.58:9997
+on 0.0.0.0:9997
+Data: {"de":"lb1","bo":0,"br":255,"di":202}
+Start bedroom light process id:303
+New light JSON:
+{
+    "de": "lb1",
+    "di": 202,
+    "br": 255
+}
+udpProcess finished
+
+SIGUSR1 received
+
+MQTT publish triggered
+Publish LB1: {"de":"lb1","di":202,"br":255}
+Message with token value 0 delivery confirmed
+Received packet from 192.168.0.58:9997
+on 0.0.0.0:9997
+Data: {"de":"lb1","bo":0,"br":255,"di":202}
+Start bedroom light process id:303
+New light JSON:
+{
+    "de": "lb1",
+    "di": 202,
+    "br": 255
+}
+udpProcess finished
+
+SIGUSR1 received
+
+MQTT publish triggered
+Publish LB1: {"de":"lb1","di":202,"br":255}
+Message with token value 0 delivery confirmed
+Received packet from 192.168.0.50:39297
+on 0.0.0.0:9997
+Data: {"de":"spm","s":0.00,"c":1559.27}
+Start spm process id:384
+New solar panel JSON:
+{
+    "de": "spm",
+    "s": 0,
+    "c": 1559.27
+}
+udpProcess finished
+
+SIGUSR1 received
+
+MQTT publish triggered
+Publish SPM: {"de":"spm","s":0,"c":1559.27}
+Received packet from 192.168.0.50:39297
+on 0.0.0.0:9997
+Data: {"de":"spm","s":0.00,"c":1559.27}
+Start spm process id:384
+New solar panel JSON:
+{
+    "de": "spm",
+    "s": 0,
+    "c": 1559.27
+}
+udpProcess finished
+
+SIGUSR1 received
+
+MQTT publish triggered
+Message with token value 0 delivery confirmed
+Publish SPM: {"de":"spm","s":0,"c":1559.27}
+Message with token value 0 delivery confirmed
+Received packet from 192.168.0.50:39297
+on 0.0.0.0:9997
+Data: {"de":"spm","s":0.00,"c":1559.27}
+Start spm process id:384
+New solar panel JSON:
+{
+    "de": "spm",
+    "s": 0,
+    "c": 1559.27
+}
+udpProcess finished
+
+SIGUSR1 received
+
+MQTT publish triggered
+Publish SPM: {"de":"spm","s":0,"c":1559.27}
+Message with token value 0 delivery confirmed
+Could not connect to device
+tcpSend s
+Init TCP outgoing socket
+Connecting to device on address 192.168.0.53
+Sending s with length 1
+tcpSend s
+Init TCP outgoing socket
+Connecting to device on address 192.168.0.54
+Received packet from 192.168.0.53:9997
+on 0.0.0.0:9997
+Data: {"de":"sb1","al":0,"ao":0,"au":1,"an":23,"af":7,"lo":0,"te":30,"hu":61,"he":33.033264}
+Start back security process id:310
+Sending s with length 1
+Original SB1 JSON:
+{
+    "de": "sb1",
+    "al": 0,
+    "ao": 0,
+    "au": 1,
+    "an": 23,
+    "af": 7,
+    "lo": 0,
+    "te": 30,
+    "hu": 61,
+    "he": 33.03
+}
+tcpSend s
+Init TCP outgoing socket
+End back security process
+Connecting to device on address 192.168.0.58
+Copied and cleaned SB1 JSON:
+{
+    "de": "sb1",
+    "al": 0,
+    "ao": 0,
+    "au": 1,
+    "an": 23,
+    "af": 7,
+    "lo": 0
+}
+Created WEO JSON:
+{
+    "de": "weo",
+    "te": 30,
+    "hu": 61,
+    "hi": 33.03
+}
+udpProcess finished
+
+SIGUSR1 received
+
+MQTT publish triggered
+Publish SEB: {"de":"sb1","al":0,"ao":0,"au":1,"an":23,"af":7,"lo":0}
+Message with token value 0 delivery confirmed
+Message with token value 0 delivery confirmed
+Publish WEO: {"de":"weo","te":30,"hu":61,"hi":33.03}
+Sending s with length 1
+tcpSend s
+Init TCP outgoing socket
+Connecting to device on address 192.168.0.59
+Sending s with length 1
+time command: y=2017,07,13,17,37,58
+tcpSend y=2017,07,13,17,37,58
+
+Init TCP outgoing socket
+Connecting to device on address 192.168.0.52
+Sending y=2017,07,13,17,37,58
+ with length 21
+time command: y=2017,07,13,17,37,58
+tcpSend y=2017,07,13,17,37,58
+
+Init TCP outgoing socket
+Connecting to device on address 192.168.0.53
+Sending y=2017,07,13,17,37,58
+ with length 21
+time command: y=2017,07,13,17,37,58
+tcpSend y=2017,07,13,17,37,58
+
+Init TCP outgoing socket
+Connecting to device on address 192.168.0.56
+Received packet from 192.168.0.53:9997
+on 0.0.0.0:9997
+Data: {"de":"sb1","al":0,"ao":0,"au":1,"an":23,"af":7,"lo":0,"te":30,"hu":61,"he":33.033264}
+Start back security process id:310
+Original SB1 JSON:
+{
+    "de": "sb1",
+    "al": 0,
+    "ao": 0,
+    "au": 1,
+    "an": 23,
+    "af": 7,
+    "lo": 0,
+    "te": 30,
+    "hu": 61,
+    "he": 33.03
+}
+End back security process
+Copied and cleaned SB1 JSON:
+{
+    "de": "sb1",
+    "al": 0,
+    "ao": 0,
+    "au": 1,
+    "an": 23,
+    "af": 7,
+    "lo": 0
+}
+Created WEO JSON:
+{
+    "de": "weo",
+    "te": 30,
+    "hu": 61,
+    "hi": 33.03
+}
+udpProcess finished
+
+SIGUSR1 received
+
+MQTT publish triggered
+Publish SEB: {"de":"sb1","al":0,"ao":0,"au":1,"an":23,"af":7,"lo":0}
+Message with token value 0 delivery confirmed
+Message with token value 0 delivery confirmed
+Publish WEO: {"de":"weo","te":30,"hu":61,"hi":33.03}
+Received packet from 192.168.0.58:9997
+on 0.0.0.0:9997
+Data: {"de":"lb1","bo":0,"br":255,"di":202}
+Start bedroom light process id:303
+New light JSON:
+{
+    "de": "lb1",
+    "di": 202,
+    "br": 255
+}
+udpProcess finished
+
+SIGUSR1 received
+
+MQTT publish triggered
+Publish LB1: {"de":"lb1","di":202,"br":255}
+Message with token value 0 delivery confirmed
+Received packet from 192.168.0.58:9997
+on 0.0.0.0:9997
+Data: {"de":"lb1","bo":0,"br":255,"di":202}
+Start bedroom light process id:303
+New light JSON:
+{
+    "de": "lb1",
+    "di": 202,
+    "br": 255
+}
+udpProcess finished
+
+SIGUSR1 received
+
+MQTT publish triggered
+Publish LB1: {"de":"lb1","di":202,"br":255}
+Message with token value 0 delivery confirmed
+Could not connect to device
+time command: y=2017,07,13,17,38,01
+tcpSend y=2017,07,13,17,38,01
+
+Init TCP outgoing socket
+Connecting to device on address 192.168.0.57
+
+SIGALRM triggered -> get temperature
+Could not connect to device
+time command: y=2017,07,13,17,38,01
+tcpSend y=2017,07,13,17,38,01
+
+Init TCP outgoing socket
+Connecting to device on address 192.168.0.54
+Sending y=2017,07,13,17,38,01
+ with length 21
+time command: y=2017,07,13,17,38,02
+tcpSend y=2017,07,13,17,38,02
+
+Init TCP outgoing socket
+Connecting to device on address 192.168.0.59
+debugTcpProcess was called 192.168.0.54:12046
+
+Received packet from 192.168.0.54:12046 - Data: cm1 Changed time to 2017-7-13 17:38:1
+
+
+SIGUSR2 received
+Received TCP debug packet: cm1 Changed time to 2017-7-13 17:38:1
+
+time command: 2017.07.13 17:38:02 Sending 2017.07.13 17:38:02  with length 21
+Subscribing to topic /CMD for client Raspberry using QoS1
+
+Subscribe succeeded
+MQTT topic subscription ok
+
+SIGUSR2 received
+Received MQTT topic: {"ip":"lb1","cm":"s"}
+
+Found device lb1 - 303
+tcpSend s
+Init TCP outgoing socket
+Connecting to device on address 192.168.0.58
+Sending s with length 1
+Received packet from 192.168.0.58:9997
+on 0.0.0.0:9997
+Data: {"de":"lb1","bo":0,"br":255,"di":202}
+Start bedroom light process id:303
+New light JSON:
+{
+    "de": "lb1",
+    "di": 202,
+    "br": 255
+}
+udpProcess finished
+
+SIGUSR1 received
+
+MQTT publish triggered
+Publish LB1: {"de":"lb1","di":202,"br":255}
+Message with token value 0 delivery confirmed
+Received packet from 192.168.0.58:9997
+on 0.0.0.0:9997
+Data: {"de":"lb1","bo":0,"br":255,"di":202}
+Start bedroom light process id:303
+New light JSON:
+{
+    "de": "lb1",
+    "di": 202,
+    "br": 255
+}
+udpProcess finished
+
+SIGUSR1 received
+
+MQTT publish triggered
+Publish LB1: {"de":"lb1","di":202,"br":255}
+Message with token value 0 delivery confirmed
+
+SIGALRM triggered -> get temperature
+debugTcpProcess was called 192.168.0.54:29074
+
+Received packet from 192.168.0.54:29074 - Data: cm1 heartBeatTriggered
+
+
+SIGUSR2 received
+Received TCP debug packet: cm1 heartBeatTriggered17-7-13 17:38:1
+
+time command: 2017.07.13 17:38:14 Received packet from 192.168.0.54:4097
+on 0.0.0.0:9997
+Data: {"de":"cm1","bo":0,"tm":"17:38","pi":0}
+Start camera process id:305
+New camera JSON:
+{
+    "de": "cm1",
+    "pi": 0,
+    "tm": "17:38"
+}
+udpProcess finished
+
+SIGUSR1 received
+
+MQTT publish triggered
+Publish CM1: {"de":"cm1","pi":0,"tm":"17:38"}
+Message with token value 0 delivery confirmed
+Received packet from 192.168.0.54:4097
+on 0.0.0.0:9997
+Data: {"de":"cm1","bo":0,"tm":"17:38","pi":0}
+Start camera process id:305
+New camera JSON:
+{
+    "de": "cm1",
+    "pi": 0,
+    "tm": "17:38"
+}
+udpProcess finished
+
+SIGUSR1 received
+
+MQTT publish triggered
+Publish CM1: {"de":"cm1","pi":0,"tm":"17:38"}
+Message with token value 0 delivery confirmed
+
+SIGALRM triggered -> get temperature
+Received packet from 192.168.0.52:9997
+on 0.0.0.0:9997
+Data: {"de":"sf1","al":0,"ao":0,"au":1,"an":23,"af":7,"lo":0}
+Start front security process id:314
+End front security process
+Copied SF1 JSON:
+{
+    "de": "sf1",
+    "al": 0,
+    "ao": 0,
+    "au": 1,
+    "an": 23,
+    "af": 7,
+    "lo": 0
+}
+udpProcess finished
+
+SIGUSR1 received
+
+MQTT publish triggered
+Publish SEF: {"de":"sf1","al":0,"ao":0,"au":1,"an":23,"af":7,"lo":0}
+Message with token value 0 delivery confirmed
+Received packet from 192.168.0.52:9997
+on 0.0.0.0:9997
+Data: {"de":"sf1","al":0,"ao":0,"au":1,"an":23,"af":7,"lo":0}
+Start front security process id:314
+End front security process
+Copied SF1 JSON:
+{
+    "de": "sf1",
+    "al": 0,
+    "ao": 0,
+    "au": 1,
+    "an": 23,
+    "af": 7,
+    "lo": 0
+}
+udpProcess finished
+
+SIGUSR1 received
+
+MQTT publish triggered
+Publish SEF: {"de":"sf1","al":0,"ao":0,"au":1,"an":23,"af":7,"lo":0}
+Message with token value 0 delivery confirmed
+Received packet from 192.168.0.53:9997
+on 0.0.0.0:9997
+Data: {"de":"sb1","al":0,"ao":0,"au":1,"an":23,"af":7,"lo":0,"te":30,"hu":61,"he":33.033264}
+Start back security process id:310
+Original SB1 JSON:
+{
+    "de": "sb1",
+    "al": 0,
+    "ao": 0,
+    "au": 1,
+    "an": 23,
+    "af": 7,
+    "lo": 0,
+    "te": 30,
+    "hu": 61,
+    "he": 33.03
+}
+End back security process
+Copied and cleaned SB1 JSON:
+{
+    "de": "sb1",
+    "al": 0,
+    "ao": 0,
+    "au": 1,
+    "an": 23,
+    "af": 7,
+    "lo": 0
+}
+Created WEO JSON:
+{
+    "de": "weo",
+    "te": 30,
+    "hu": 61,
+    "hi": 33.03
+}
+udpProcess finished
+
+SIGUSR1 received
+
+MQTT publish triggered
+Publish SEB: {"de":"sb1","al":0,"ao":0,"au":1,"an":23,"af":7,"lo":0}
+Publish WEO: {"de":"weo","te":30,"hu":61,"hi":33.03}
+Message with token value 0 delivery confirmed
+Message with token value 0 delivery confirmed
+Received packet from 192.168.0.53:9997
+on 0.0.0.0:9997
+Data: {"de":"sb1","al":0,"ao":0,"au":1,"an":23,"af":7,"lo":0,"te":30,"hu":61,"he":33.033264}
+Start back security process id:310
+Original SB1 JSON:
+{
+    "de": "sb1",
+    "al": 0,
+    "ao": 0,
+    "au": 1,
+    "an": 23,
+    "af": 7,
+    "lo": 0,
+    "te": 30,
+    "hu": 61,
+    "he": 33.03
+}
+End back security process
+Copied and cleaned SB1 JSON:
+{
+    "de": "sb1",
+    "al": 0,
+    "ao": 0,
+    "au": 1,
+    "an": 23,
+    "af": 7,
+    "lo": 0
+}
+Created WEO JSON:
+{
+    "de": "weo",
+    "te": 30,
+    "hu": 61,
+    "hi": 33.03
+}
+udpProcess finished
+
+SIGUSR1 received
+
+MQTT publish triggered
+Publish SEB: {"de":"sb1","al":0,"ao":0,"au":1,"an":23,"af":7,"lo":0}
+Publish WEO: {"de":"weo","te":30,"hu":61,"hi":33.03}
+Message with token value 0 delivery confirmed
+Message with token value 0 delivery confirmed
+
+SIGALRM triggered -> get temperature
+Received packet from 192.168.0.59:9997
+on 0.0.0.0:9997
+Data: {"de":"ly1","lo":0}
+Start backyard light process id:326
+New backyard light JSON:
+{
+    "de": "ly1",
+    "lo": 0
+}
+udpProcess finished
+
+SIGUSR1 received
+
+MQTT publish triggered
+Publish LY1: {"de":"ly1","lo":0}
+Message with token value 0 delivery confirmed
+Received packet from 192.168.0.59:9997
+on 0.0.0.0:9997
+Data: {"de":"ly1","lo":0}
+Start backyard light process id:326
+New backyard light JSON:
+{
+    "de": "ly1",
+    "lo": 0
+}
+udpProcess finished
+
+SIGUSR1 received
+
+MQTT publish triggered
+Publish LY1: {"de":"ly1","lo":0}
+Message with token value 0 delivery confirmed
+
+SIGALRM triggered -> get temperature
+
+SIGALRM triggered -> get temperature
+
+SIGALRM 60 times triggered -> send camera status
+udpSend {"de":"vc1","pi":0}
+Sending {"de":"vc1","pi":0} with length 19
+Received packet from 192.168.0.251:9997
+on 0.0.0.0:9997
+Data: {"de":"vc1","pi":0}
+Start front security process id:314
+End front security process
+Copied SF1 JSON:
+{
+    "de": "vc1",
+    "pi": 0
+}
+udpProcess finished
+
+SIGUSR1 received
+
+MQTT publish triggered
+Publish SEF: {"de":"vc1","pi":0}
+Message with token value 0 delivery confirmed
+Publish VC1: {"de":"vc1","pi":0}
+Message with token value 0 delivery confirmed
+Received packet from 192.168.0.251:9997
+on 0.0.0.0:9997
+Data: {"de":"vc1","pi":0}
+Start front security process id:314
+End front security process
+Copied SF1 JSON:
+{
+    "de": "vc1",
+    "pi": 0
+}
+udpProcess finished
+
+SIGUSR1 received
+
+MQTT publish triggered
+Publish SEF: {"de":"vc1","pi":0}
+Message with token value 0 delivery confirmed
+Received packet from 192.168.0.53:9997
+on 0.0.0.0:9997
+Data: {"de":"sb1","al":0,"ao":0,"au":1,"an":23,"af":7,"lo":0,"te":30,"hu":61,"he":33.033264}
+Start back security process id:310
+Original SB1 JSON:
+{
+    "de": "sb1",
+    "al": 0,
+    "ao": 0,
+    "au": 1,
+    "an": 23,
+    "af": 7,
+    "lo": 0,
+    "te": 30,
+    "hu": 61,
+    "he": 33.03
+}
+End back security process
+Copied and cleaned SB1 JSON:
+{
+    "de": "sb1",
+    "al": 0,
+    "ao": 0,
+    "au": 1,
+    "an": 23,
+    "af": 7,
+    "lo": 0
+}
+Created WEO JSON:
+{
+    "de": "weo",
+    "te": 30,
+    "hu": 61,
+    "hi": 33.03
+}
+udpProcess finished
+
+SIGUSR1 received
+
+MQTT publish triggered
+Publish SEB: {"de":"sb1","al":0,"ao":0,"au":1,"an":23,"af":7,"lo":0}
+Publish WEO: {"de":"weo","te":30,"hu":61,"hi":33.03}
+Message with token value 0 delivery confirmed
+Message with token value 0 delivery confirmed
+Received packet from 192.168.0.53:9997
+on 0.0.0.0:9997
+Data: {"de":"sb1","al":0,"ao":0,"au":1,"an":23,"af":7,"lo":0,"te":30,"hu":61,"he":33.033264}
+Start back security process id:310
+Original SB1 JSON:
+{
+    "de": "sb1",
+    "al": 0,
+    "ao": 0,
+    "au": 1,
+    "an": 23,
+    "af": 7,
+    "lo": 0,
+    "te": 30,
+    "hu": 61,
+    "he": 33.03
+}
+End back security process
+Copied and cleaned SB1 JSON:
+{
+    "de": "sb1",
+    "al": 0,
+    "ao": 0,
+    "au": 1,
+    "an": 23,
+    "af": 7,
+    "lo": 0
+}
+Created WEO JSON:
+{
+    "de": "weo",
+    "te": 30,
+    "hu": 61,
+    "hi": 33.03
+}
+udpProcess finished
+
+SIGUSR1 received
+
+MQTT publish triggered
+Publish SEB: {"de":"sb1","al":0,"ao":0,"au":1,"an":23,"af":7,"lo":0}
+Publish WEO: {"de":"weo","te":30,"hu":61,"hi":33.03}
+Message with token value 0 delivery confirmed
+Message with token value 0 delivery confirmed
+Received packet from 192.168.0.58:9997
+on 0.0.0.0:9997
+Data: {"de":"lb1","bo":0,"br":255,"di":202}
+Start bedroom light process id:303
+New light JSON:
+{
+    "de": "lb1",
+    "di": 202,
+    "br": 255
+}
+udpProcess finished
+
+SIGUSR1 received
+
+MQTT publish triggered
+Publish LB1: {"de":"lb1","di":202,"br":255}
+Received packet from 192.168.0.58:9997
+on 0.0.0.0:9997
+Data: {"de":"lb1","bo":0,"br":255,"di":202}
+Start bedroom light process id:303
+New light JSON:
+{
+    "de": "lb1",
+    "di": 202,
+    "br": 255
+}
+udpProcess finished
+
+SIGUSR1 received
+
+MQTT publish triggered
+Publish LB1: {"de":"lb1","di":202,"br":255}
+Message with token value 0 delivery confirmed
+Message with token value 0 delivery confirmed
+Received packet from 192.168.0.50:57430
+on 0.0.0.0:9997
+Data: {"de":"spm","s":5.37,"c":1214.18}
+Start spm process id:384
+New solar panel JSON:
+{
+    "de": "spm",
+    "s": 5.37,
+    "c": 1214.18
+}
+udpProcess finished
+
+SIGUSR1 received
+
+MQTT publish triggered
+Publish SPM: {"de":"spm","s":5.37,"c":1214.18}
+Message with token value 0 delivery confirmed
+Received packet from 192.168.0.50:57430
+on 0.0.0.0:9997
+Data: {"de":"spm","s":5.37,"c":1214.18}
+Start spm process id:384
+New solar panel JSON:
+{
+    "de": "spm",
+    "s": 5.37,
+    "c": 1214.18
+}
+udpProcess finished
+
+SIGUSR1 received
+
+MQTT publish triggered
+Publish SPM: {"de":"spm","s":5.37,"c":1214.18}
+Message with token value 0 delivery confirmed
+Received packet from 192.168.0.50:57430
+on 0.0.0.0:9997
+Data: {"de":"spm","s":5.37,"c":1214.18}
+Start spm process id:384
+New solar panel JSON:
+{
+    "de": "spm",
+    "s": 5.37,
+    "c": 1214.18
+}
+udpProcess finished
+
+SIGUSR1 received
+
+MQTT publish triggered
+Publish SPM: {"de":"spm","s":5.37,"c":1214.18}
+Message with token value 0 delivery confirmed
+
+SIGALRM triggered -> get temperature
+
+SIGALRM triggered -> get temperature
+debugTcpProcess was called 192.168.0.54:10442
+
+Received packet from 192.168.0.54:10442 - Data: cm1 heartBeatTriggered
+
+
+SIGUSR2 received
+Received TCP debug packet: cm1 heartBeatTriggered17-7-13 17:38:1
+
+time command: 2017.07.13 17:39:14 Received packet from 192.168.0.54:4097
+on 0.0.0.0:9997
+Data: {"de":"cm1","bo":0,"tm":"17:39","pi":0}
+Start camera process id:305
+New camera JSON:
+{
+    "de": "cm1",
+    "pi": 0,
+    "tm": "17:39"
+}
+udpProcess finished
+
+SIGUSR1 received
+
+MQTT publish triggered
+Publish CM1: {"de":"cm1","pi":0,"tm":"17:39"}
+Message with token value 0 delivery confirmed
+Received packet from 192.168.0.54:4097
+on 0.0.0.0:9997
+Data: {"de":"cm1","bo":0,"tm":"17:39","pi":0}
+Start camera process id:305
+New camera JSON:
+{
+    "de": "cm1",
+    "pi": 0,
+    "tm": "17:39"
+}
+udpProcess finished
+
+SIGUSR1 received
+
+MQTT publish triggered
+Publish CM1: {"de":"cm1","pi":0,"tm":"17:39"}
+Message with token value 0 delivery confirmed
+
+SIGALRM triggered -> get temperature
+Received packet from 192.168.0.52:9997
+on 0.0.0.0:9997
+Data: {"de":"sf1","al":0,"ao":0,"au":1,"an":23,"af":7,"lo":0}
+Start front security process id:314
+End front security process
+Copied SF1 JSON:
+{
+    "de": "sf1",
+    "al": 0,
+    "ao": 0,
+    "au": 1,
+    "an": 23,
+    "af": 7,
+    "lo": 0
+}
+udpProcess finished
+
+SIGUSR1 received
+
+MQTT publish triggered
+Publish SEF: {"de":"sf1","al":0,"ao":0,"au":1,"an":23,"af":7,"lo":0}
+Message with token value 0 delivery confirmed
+Received packet from 192.168.0.52:9997
+on 0.0.0.0:9997
+Data: {"de":"sf1","al":0,"ao":0,"au":1,"an":23,"af":7,"lo":0}
+Start front security process id:314
+End front security process
+Copied SF1 JSON:
+{
+    "de": "sf1",
+    "al": 0,
+    "ao": 0,
+    "au": 1,
+    "an": 23,
+    "af": 7,
+    "lo": 0
+}
+udpProcess finished
+
+SIGUSR1 received
+
+MQTT publish triggered
+Publish SEF: {"de":"sf1","al":0,"ao":0,"au":1,"an":23,"af":7,"lo":0}
+Message with token value 0 delivery confirmed
+Received packet from 192.168.0.53:9997
+on 0.0.0.0:9997
+Data: {"de":"sb1","al":0,"ao":0,"au":1,"an":23,"af":7,"lo":0,"te":30,"hu":61,"he":33.033264}
+Start back security process id:310
+Original SB1 JSON:
+{
+    "de": "sb1",
+    "al": 0,
+    "ao": 0,
+    "au": 1,
+    "an": 23,
+    "af": 7,
+    "lo": 0,
+    "te": 30,
+    "hu": 61,
+    "he": 33.03
+}
+End back security process
+Copied and cleaned SB1 JSON:
+{
+    "de": "sb1",
+    "al": 0,
+    "ao": 0,
+    "au": 1,
+    "an": 23,
+    "af": 7,
+    "lo": 0
+}
+Created WEO JSON:
+{
+    "de": "weo",
+    "te": 30,
+    "hu": 61,
+    "hi": 33.03
+}
+udpProcess finished
+
+SIGUSR1 received
+
+MQTT publish triggered
+Publish SEB: {"de":"sb1","al":0,"ao":0,"au":1,"an":23,"af":7,"lo":0}
+Publish WEO: {"de":"weo","te":30,"hu":61,"hi":33.03}
+Message with token value 0 delivery confirmed
+Message with token value 0 delivery confirmed
+Received packet from 192.168.0.53:9997
+on 0.0.0.0:9997
+Data: {"de":"sb1","al":0,"ao":0,"au":1,"an":23,"af":7,"lo":0,"te":30,"hu":61,"he":33.033264}
+Start back security process id:310
+Original SB1 JSON:
+{
+    "de": "sb1",
+    "al": 0,
+    "ao": 0,
+    "au": 1,
+    "an": 23,
+    "af": 7,
+    "lo": 0,
+    "te": 30,
+    "hu": 61,
+    "he": 33.03
+}
+End back security process
+Copied and cleaned SB1 JSON:
+{
+    "de": "sb1",
+    "al": 0,
+    "ao": 0,
+    "au": 1,
+    "an": 23,
+    "af": 7,
+    "lo": 0
+}
+Created WEO JSON:
+{
+    "de": "weo",
+    "te": 30,
+    "hu": 61,
+    "hi": 33.03
+}
+udpProcess finished
+
+SIGUSR1 received
+
+MQTT publish triggered
+Publish SEB: {"de":"sb1","al":0,"ao":0,"au":1,"an":23,"af":7,"lo":0}
+Publish WEO: {"de":"weo","te":30,"hu":61,"hi":33.03}
+Message with token value 0 delivery confirmed
+Message with token value 0 delivery confirmed
+
+SIGALRM triggered -> get temperature
+Received packet from 192.168.0.59:9997
+on 0.0.0.0:9997
+Data: {"de":"ly1","lo":0}
+Start backyard light process id:326
+New backyard light JSON:
+{
+    "de": "ly1",
+    "lo": 0
+}
+udpProcess finished
+
+SIGUSR1 received
+
+MQTT publish triggered
+Publish LY1: {"de":"ly1","lo":0}
+Message with token value 0 delivery confirmed
+Received packet from 192.168.0.59:9997
+on 0.0.0.0:9997
+Data: {"de":"ly1","lo":0}
+Start backyard light process id:326
+New backyard light JSON:
+{
+    "de": "ly1",
+    "lo": 0
+}
+udpProcess finished
+
+SIGUSR1 received
+
+MQTT publish triggered
+Publish LY1: {"de":"ly1","lo":0}
+Message with token value 0 delivery confirmed
+
+SIGALRM triggered -> get temperature
+
+SIGALRM triggered -> get temperature
+Received packet from 192.168.0.53:9997
+on 0.0.0.0:9997
+Data: {"de":"sb1","al":0,"ao":0,"au":1,"an":23,"af":7,"lo":0,"te":30,"hu":61,"he":33.033264}
+Start back security process id:310
+Original SB1 JSON:
+{
+    "de": "sb1",
+    "al": 0,
+    "ao": 0,
+    "au": 1,
+    "an": 23,
+    "af": 7,
+    "lo": 0,
+    "te": 30,
+    "hu": 61,
+    "he": 33.03
+}
+End back security process
+Copied and cleaned SB1 JSON:
+{
+    "de": "sb1",
+    "al": 0,
+    "ao": 0,
+    "au": 1,
+    "an": 23,
+    "af": 7,
+    "lo": 0
+}
+Created WEO JSON:
+{
+    "de": "weo",
+    "te": 30,
+    "hu": 61,
+    "hi": 33.03
+}
+udpProcess finished
+
+SIGUSR1 received
+
+MQTT publish triggered
+Publish SEB: {"de":"sb1","al":0,"ao":0,"au":1,"an":23,"af":7,"lo":0}
+Message with token value 0 delivery confirmed
+Publish WEO: {"de":"weo","te":30,"hu":61,"hi":33.03}
+Message with token value 0 delivery confirmed
+Received packet from 192.168.0.53:9997
+on 0.0.0.0:9997
+Data: {"de":"sb1","al":0,"ao":0,"au":1,"an":23,"af":7,"lo":0,"te":30,"hu":61,"he":33.033264}
+Start back security process id:310
+Original SB1 JSON:
+{
+    "de": "sb1",
+    "al": 0,
+    "ao": 0,
+    "au": 1,
+    "an": 23,
+    "af": 7,
+    "lo": 0,
+    "te": 30,
+    "hu": 61,
+    "he": 33.03
+}
+End back security process
+Copied and cleaned SB1 JSON:
+{
+    "de": "sb1",
+    "al": 0,
+    "ao": 0,
+    "au": 1,
+    "an": 23,
+    "af": 7,
+    "lo": 0
+}
+Created WEO JSON:
+{
+    "de": "weo",
+    "te": 30,
+    "hu": 61,
+    "hi": 33.03
+}
+udpProcess finished
+
+SIGUSR1 received
+
+MQTT publish triggered
+Publish SEB: {"de":"sb1","al":0,"ao":0,"au":1,"an":23,"af":7,"lo":0}
+Publish WEO: {"de":"weo","te":30,"hu":61,"hi":33.03}
+Message with token value 0 delivery confirmed
+Message with token value 0 delivery confirmed
+Received packet from 192.168.0.58:9997
+on 0.0.0.0:9997
+Data: {"de":"lb1","bo":0,"br":255,"di":202}
+Start bedroom light process id:303
+New light JSON:
+{
+    "de": "lb1",
+    "di": 202,
+    "br": 255
+}
+udpProcess finished
+
+SIGUSR1 received
+
+MQTT publish triggered
+Publish LB1: {"de":"lb1","di":202,"br":255}
+Message with token value 0 delivery confirmed
+Received packet from 192.168.0.58:9997
+on 0.0.0.0:9997
+Data: {"de":"lb1","bo":0,"br":255,"di":202}
+Start bedroom light process id:303
+New light JSON:
+{
+    "de": "lb1",
+    "di": 202,
+    "br": 255
+}
+udpProcess finished
+
+SIGUSR1 received
+
+MQTT publish triggered
+Publish LB1: {"de":"lb1","di":202,"br":255}
+Message with token value 0 delivery confirmed
+Received packet from 192.168.0.50:37197
+on 0.0.0.0:9997
+Data: {"de":"spm","s":3.43,"c":972.14}
+Start spm process id:384
+New solar panel JSON:
+{
+    "de": "spm",
+    "s": 3.43,
+    "c": 972.14
+}
+udpProcess finished
+
+SIGUSR1 received
+
+MQTT publish triggered
+Publish SPM: {"de":"spm","s":3.43,"c":972.14}
+Received packet from 192.168.0.50:37197
+on 0.0.0.0:9997
+Data: {"de":"spm","s":3.43,"c":972.14}
+Start spm process id:384
+New solar panel JSON:
+{
+    "de": "spm",
+    "s": 3.43,
+    "c": 972.14
+}
+udpProcess finished
+
+SIGUSR1 received
+
+MQTT publish triggered
+Publish SPM: {"de":"spm","s":3.43,"c":972.14}
+Message with token value 0 delivery confirmed
+Message with token value 0 delivery confirmed
+Received packet from 192.168.0.50:37197
+on 0.0.0.0:9997
+Data: {"de":"spm","s":3.43,"c":972.14}
+Start spm process id:384
+New solar panel JSON:
+{
+    "de": "spm",
+    "s": 3.43,
+    "c": 972.14
+}
+udpProcess finished
+
+SIGUSR1 received
+
+MQTT publish triggered
+Publish SPM: {"de":"spm","s":3.43,"c":972.14}
+Message with token value 0 delivery confirmed
+
+SIGALRM triggered -> get temperature
+
+SIGALRM triggered -> get temperature
+debugTcpProcess was called 192.168.0.54:7284
+
+Received packet from 192.168.0.54:7284 - Data: cm1 heartBeatTriggered
+
+
+SIGUSR2 received
+Received TCP debug packet: cm1 heartBeatTriggered17-7-13 17:38:1
+
+time command: 2017.07.13 17:40:14 Received packet from 192.168.0.54:4097
+on 0.0.0.0:9997
+Data: {"de":"cm1","bo":0,"tm":"17:40","pi":0}
+Start camera process id:305
+New camera JSON:
+{
+    "de": "cm1",
+    "pi": 0,
+    "tm": "17:40"
+}
+udpProcess finished
+
+SIGUSR1 received
+
+MQTT publish triggered
+Publish CM1: {"de":"cm1","pi":0,"tm":"17:40"}
+Message with token value 0 delivery confirmed
+Received packet from 192.168.0.54:4097
+on 0.0.0.0:9997
+Data: {"de":"cm1","bo":0,"tm":"17:40","pi":0}
+Start camera process id:305
+New camera JSON:
+{
+    "de": "cm1",
+    "pi": 0,
+    "tm": "17:40"
+}
+udpProcess finished
+
+SIGUSR1 received
+
+MQTT publish triggered
+Publish CM1: {"de":"cm1","pi":0,"tm":"17:40"}
+Message with token value 0 delivery confirmed
+
+SIGALRM triggered -> get temperature
+Received packet from 192.168.0.52:9997
+on 0.0.0.0:9997
+Data: {"de":"sf1","al":0,"ao":0,"au":1,"an":23,"af":7,"lo":0}
+Start front security process id:314
+End front security process
+Copied SF1 JSON:
+{
+    "de": "sf1",
+    "al": 0,
+    "ao": 0,
+    "au": 1,
+    "an": 23,
+    "af": 7,
+    "lo": 0
+}
+udpProcess finished
+
+SIGUSR1 received
+
+MQTT publish triggered
+Publish SEF: {"de":"sf1","al":0,"ao":0,"au":1,"an":23,"af":7,"lo":0}
+Message with token value 0 delivery confirmed
+Received packet from 192.168.0.52:9997
+on 0.0.0.0:9997
+Data: {"de":"sf1","al":0,"ao":0,"au":1,"an":23,"af":7,"lo":0}
+Start front security process id:314
+End front security process
+Copied SF1 JSON:
+{
+    "de": "sf1",
+    "al": 0,
+    "ao": 0,
+    "au": 1,
+    "an": 23,
+    "af": 7,
+    "lo": 0
+}
+udpProcess finished
+
+SIGUSR1 received
+
+MQTT publish triggered
+Publish SEF: {"de":"sf1","al":0,"ao":0,"au":1,"an":23,"af":7,"lo":0}
+Message with token value 0 delivery confirmed
+Received packet from 192.168.0.53:9997
+on 0.0.0.0:9997
+Data: {"de":"sb1","al":0,"ao":0,"au":1,"an":23,"af":7,"lo":0,"te":30,"hu":61,"he":33.033264}
+Start back security process id:310
+Original SB1 JSON:
+{
+    "de": "sb1",
+    "al": 0,
+    "ao": 0,
+    "au": 1,
+    "an": 23,
+    "af": 7,
+    "lo": 0,
+    "te": 30,
+    "hu": 61,
+    "he": 33.03
+}
+End back security process
+Copied and cleaned SB1 JSON:
+{
+    "de": "sb1",
+    "al": 0,
+    "ao": 0,
+    "au": 1,
+    "an": 23,
+    "af": 7,
+    "lo": 0
+}
+Created WEO JSON:
+{
+    "de": "weo",
+    "te": 30,
+    "hu": 61,
+    "hi": 33.03
+}
+udpProcess finished
+
+SIGUSR1 received
+
+MQTT publish triggered
+Publish SEB: {"de":"sb1","al":0,"ao":0,"au":1,"an":23,"af":7,"lo":0}
+Publish WEO: {"de":"weo","te":30,"hu":61,"hi":33.03}
+Message with token value 0 delivery confirmed
+Message with token value 0 delivery confirmed
+Received packet from 192.168.0.53:9997
+on 0.0.0.0:9997
+Data: {"de":"sb1","al":0,"ao":0,"au":1,"an":23,"af":7,"lo":0,"te":30,"hu":61,"he":33.033264}
+Start back security process id:310
+Original SB1 JSON:
+{
+    "de": "sb1",
+    "al": 0,
+    "ao": 0,
+    "au": 1,
+    "an": 23,
+    "af": 7,
+    "lo": 0,
+    "te": 30,
+    "hu": 61,
+    "he": 33.03
+}
+End back security process
+Copied and cleaned SB1 JSON:
+{
+    "de": "sb1",
+    "al": 0,
+    "ao": 0,
+    "au": 1,
+    "an": 23,
+    "af": 7,
+    "lo": 0
+}
+Created WEO JSON:
+{
+    "de": "weo",
+    "te": 30,
+    "hu": 61,
+    "hi": 33.03
+}
+udpProcess finished
+
+SIGUSR1 received
+
+MQTT publish triggered
+Publish SEB: {"de":"sb1","al":0,"ao":0,"au":1,"an":23,"af":7,"lo":0}
+Publish WEO: {"de":"weo","te":30,"hu":61,"hi":33.03}
+Message with token value 0 delivery confirmed
+Message with token value 0 delivery confirmed
+
+SIGALRM triggered -> get temperature
+Received packet from 192.168.0.59:9997
+on 0.0.0.0:9997
+Data: {"de":"ly1","lo":0}
+Start backyard light process id:326
+New backyard light JSON:
+{
+    "de": "ly1",
+    "lo": 0
+}
+udpProcess finished
+
+SIGUSR1 received
+
+MQTT publish triggered
+Publish LY1: {"de":"ly1","lo":0}
+Message with token value 0 delivery confirmed
+Received packet from 192.168.0.59:9997
+on 0.0.0.0:9997
+Data: {"de":"ly1","lo":0}
+Start backyard light process id:326
+New backyard light JSON:
+{
+    "de": "ly1",
+    "lo": 0
+}
+udpProcess finished
+
+SIGUSR1 received
+
+MQTT publish triggered
+Publish LY1: {"de":"ly1","lo":0}
+Message with token value 0 delivery confirmed
+
+SIGALRM triggered -> get temperature
+
+SIGUSR1 received
+
+MQTT publish triggered
+
+SIGALRM triggered -> get temperature
+Received packet from 192.168.0.53:9997
+on 0.0.0.0:9997
+Data: {"de":"sb1","al":0,"ao":0,"au":1,"an":23,"af":7,"lo":0,"te":30,"hu":61,"he":33.033264}
+Start back security process id:310
+Original SB1 JSON:
+{
+    "de": "sb1",
+    "al": 0,
+    "ao": 0,
+    "au": 1,
+    "an": 23,
+    "af": 7,
+    "lo": 0,
+    "te": 30,
+    "hu": 61,
+    "he": 33.03
+}
+End back security process
+Copied and cleaned SB1 JSON:
+{
+    "de": "sb1",
+    "al": 0,
+    "ao": 0,
+    "au": 1,
+    "an": 23,
+    "af": 7,
+    "lo": 0
+}
+Created WEO JSON:
+{
+    "de": "weo

@@ -1,0 +1,4 @@
+wifi.h
+*.o
+.codelite
+Fonts

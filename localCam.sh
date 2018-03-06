@@ -1,0 +1,1 @@
+ffmpeg -i /dev/video0 -vcodec libx264 -pix_fmt yuv420p -an -f segment -strftime 1 -segment_time 900 -segment_format avi "/mhcv/backyard_%Y-%m-%d_%H-%M.avi"
